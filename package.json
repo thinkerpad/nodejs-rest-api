@@ -2,13 +2,13 @@
   "name": "node.js-rest-api",
   "version": "1.0.0",
   "description": "INF 653 Node.JS REST API",
-  "main": "index.js",
-  "type": "module",
+  "main": "server.js",
   "engines": {
     "node": "^16.0.0"
   },
   "scripts": {
-    "dev": "node --watch server.js"
+    "dev": "node --watch server.js",
+    "start": "node server.js"
   },
   "author": "Nirak Choun",
   "license": "ISC",

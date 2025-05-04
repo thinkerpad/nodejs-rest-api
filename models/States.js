@@ -1,6 +1,6 @@
-import {Schema, model} from "mongoose";
+const mongoose = require("mongoose");
 
-const stateSchema = new Schema({
+const stateSchema = new mongoose.Schema({
     stateCode: {
         type: String,
         required: true,
@@ -11,6 +11,6 @@ const stateSchema = new Schema({
     }
 });
 
-const State = model('State', stateSchema);
+const State = mongoose.model('State', stateSchema);
 
-export default State;
+module.exports = State;

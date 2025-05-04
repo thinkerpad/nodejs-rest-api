@@ -1,9 +1,5 @@
-import fs from 'fs';
-import path from 'path';
-import { fileURLToPath } from 'url';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const fs = require('fs');
+const path = require('path');
 
 const rawData = fs.readFileSync(path.join(__dirname, '../data/statesData.json'));
 const statesData = JSON.parse(rawData);
@@ -21,4 +17,4 @@ const verifyState = (req, res, next) => {
     next();
 };
 
-export default verifyState;
+module.exports = verifyState;
