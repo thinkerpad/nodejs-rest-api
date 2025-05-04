@@ -1,0 +1,22 @@
+{
+  "name": "node.js-rest-api",
+  "version": "1.0.0",
+  "description": "INF 653 Node.JS REST API",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": "^16.0.0"
+  },
+  "scripts": {
+    "dev": "node --watch server.js"
+  },
+  "author": "Nirak Choun",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongodb": "^6.16.0",
+    "mongoose": "^8.14.1"
+  }
+}
