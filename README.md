@@ -21,7 +21,7 @@ A RESTful API built using **Node.js**, **Express**, and **MongoDB** that provide
 ## 📁 API Endpoints
 
 ### Base URL
-https://your-project-name.glitch.me/states/
+https://nickel-general-sound.glitch.me/
 
 
 ### GET Requests
